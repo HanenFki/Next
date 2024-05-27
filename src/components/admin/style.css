@@ -1,0 +1,72 @@
+/* styles.css */
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    color: #ff9747;
+    margin-bottom: 20px;
+  }
+  
+  .custom-button {
+    background-color: #ff9747;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #e88e3a;
+  }
+  
+  .custom-button-warning {
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  .custom-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .custom-form-label {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .custom-form-control {
+    border-radius: 4px;
+  }
+ 
+ /* styles.css */
+/* Ajoute une marge à droite pour l'icône d'édition */
+.edit-icon {
+  margin-right: 0.5rem;
+}
+
+/* Redimensionne l'image */
+.image {
+  width: 900px;
+  height: 100px;
+}
+
+/* Largeur de la colonne de description */
+.description-cell {
+  width: 30%;
+}
+
+/* Largeur de la colonne des actions */
+.action-cell {
+  width: 35%;
+}
+.id-cell {
+  width: 15%;
+}
